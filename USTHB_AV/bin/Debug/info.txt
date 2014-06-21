@@ -1,0 +1,7 @@
+hache de la dernier bdd_mal :11ea654e55b0340cfa7588710053f6d856a05f232b8bc6e0f7e917e7233ade36
+version de la base de signtures :14.0.1.1
+version de USTHB_AV :14.0.1
+nombre signature :7325
+nb malwares:7404
+hache de fichier.dll du programme:c3215c9dde3d63e2c8d2e71da281af8ed836c47882918460bb2a339985ac7c54
+

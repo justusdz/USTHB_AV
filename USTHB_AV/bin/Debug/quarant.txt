@@ -1,0 +1,4 @@
+6.exe+C:\Users\fahem\Desktop\entry\6.exe
+5.exe+C:\Users\fahem\Desktop\entry\5.exe
+4.exe+C:\Users\fahem\Desktop\entry\4.exe
+1.exe+C:\Users\fahem\Desktop\entry\1.exe

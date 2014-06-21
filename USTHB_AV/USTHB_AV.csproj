@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32A937F7-F77C-4A4A-8F59-36C5B86568B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>USTHB_AV</RootNamespace>
+    <AssemblyName>USTHB_AV</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.8.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=11.8.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.8.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.8.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=11.8.0.1, Culture=neutral, PublicKeyToken=f90dc37c26666a67" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.en-US.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.fr.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrono.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrono1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25025683-3d-person-with-magnify-examines-puzzle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tache.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cccc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25025683-3d-person-with-magnify-examines-puzzle1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25025683-3d-person-with-magnify-examines-puzzle2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-manager-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cmd-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14951857-rendu-3d-de-clavier-isole-sur-fond-blanc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clavier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\men.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clavierrr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usthb12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eeee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suspect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\à jour.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
